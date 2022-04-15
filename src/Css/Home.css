@@ -1,0 +1,35 @@
+.home-body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.body-text {
+    font-size: 30px;
+    margin: 0 100px;
+}
+.home-navbar {
+    overflow: auto;
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+}
+.sms-logo {
+    text-align: center;
+    margin: 35px;
+}
+ul.nav-links {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 2px;
+    width: 60vw;
+    text-align: right;
+    justify-content: end;
+    
+}
+ul.nav-links li {
+    margin: 20px;
+}
+ul.nav-links li a {
+    text-decoration: none;
+    color: black;
+}
